@@ -4,7 +4,7 @@
 fn main(){
 
 
-    let hello_world : &str = "Hello, World!";
+    let hello_world :  &str = "Hello, World!";
     // Nous pouvons également spécifier explicitement hello_worldla durée de vie de :
     let hello_world: &'static str = "Hello, world!";
 
