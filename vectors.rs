@@ -14,7 +14,6 @@ fn main(){
     {
         //Comme toutes les autres structures, un vecteur est libéré quand il sort de la portée, comme précisé dans l'encart 8-4.
 
-
         let mut my_vector = vec![1, 2, 3];
         // on fait des choses avec v
 

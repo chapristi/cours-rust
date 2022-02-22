@@ -1,4 +1,4 @@
-
+//un trait est un ensemble de méthodes que l'objet sur lequel il est appliqué doit implémenter.
 struct Person{
 
 
