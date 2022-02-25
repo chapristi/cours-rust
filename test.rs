@@ -27,7 +27,7 @@ fn give_two()->i32{
 #[cfg(test)]
 //#[cfg(test)] indique a rust de compiler ce code que au moment de faire un cargo test
 mod dcode_tests{
-
+    //use super::*; on peut utiliser cette ligne pour importer tout les fonction en dehors du module de test
     #[test]
     #[should_panic]
     fn test_basic(){
